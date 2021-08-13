@@ -4,16 +4,10 @@ var bdayvar=document.querySelector("#birthday");
 var luckynumvar=document.querySelector("#luckynum");
 var tempdate;
 submitvar.addEventListener("click",showInput)
-function ballonAnimation(){
-    document.getElementById("ballon").animate([
-// keyframes
-{ transform: 'translateY(0px)' },
-{ transform: 'translateY(-100px)' }
-], {
-// timing options
-duration: 1000,
-iterations: 1
-});
+
+function showGif(){
+  document.body.style.backgroundImage = "url('./images/giphy.gif')";
+ 
 }
 function showInput() {
     
@@ -35,7 +29,7 @@ function showInput() {
  if(result===0)
   {
   
-    ballonAnimation();
+    showGif();
     luck_result="Congratulations, You are Lucky"
     document.querySelector('#display').innerHTML = luck_result;
   }

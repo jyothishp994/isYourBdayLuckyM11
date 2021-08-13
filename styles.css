@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     body{
-        background-image: url("./background.jpg");
-        background-repeat: no-repeat;
-        background-size:cover;
-        font-family: 'Style Script', cursive;
+       background-color: palevioletred;
+            font-family: 'Fjalla One', sans-serif;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
     }
     .main
 {
-    margin-top:25rem;
-    margin-left:5rem;
+    margin:0 auto;
+    text-align: center;
 
 }
  .header{
@@ -16,20 +17,25 @@
     font-weight: bolder;
         text-align:center;
         color:white;
-        font-size:5rem;
+        font-size:3rem;
+        padding:2rem;
 }
     label{
-        color:darkred;
+        color:white;
         margin-left:5rem;
-        font-size:xx-large;
+        font-size:large;
         font-weight: bolder;
+        padding:1rem;
+        
+    }
+    input{
         
     }
     #display{
-        color:navy;
+        color:white;
         font-size:xx-large;
-        font-weight: bolder;
-        margin-left:35rem;
+      
+padding:3rem;
         text-align:center;
        
      
